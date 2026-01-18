@@ -1,0 +1,8 @@
+kitty +kitten themes --reload-in=all Catppuccin-Macchiato
+
+
+# BEGIN_KITTY_THEME
+# Catppuccin-Macchiato
+include current-theme.conf
+background_opacity 0.975
+# END_KITTY_THEME
