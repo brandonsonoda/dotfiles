@@ -6,4 +6,4 @@ require("config.lazy")
 require("oil").setup()
 
 vim.cmd("filetype plugin on")
--- vim.cmd('colorscheme terafox')
+vim.cmd('colorscheme terafox')
