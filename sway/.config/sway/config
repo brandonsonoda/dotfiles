@@ -22,6 +22,8 @@ set $menu wmenu-run
 #
 # Default wallpaper (more resolutions are available in @datadir@/backgrounds/sway/)
 # output * bg @datadir@/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+# Built-in thinkpad screen
+output "Lenovo Group Limited 0x40A9 Unknown" scale 1.4
 #
 # Example configuration:
 #
