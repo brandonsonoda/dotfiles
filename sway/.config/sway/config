@@ -49,6 +49,7 @@ output "Lenovo Group Limited 0x40A9 Unknown" scale 1.4
 # Example configuration:
 #
 input type:touchpad {
+  tap yes
 }
 #
 input type:keyboard {
@@ -66,10 +67,10 @@ input type:keyboard {
     bindsym $mod+Return exec $term
 
     # Kill focused window
-    bindsym $mod+Shift+q kill
+    bindsym $mod+q kill
 
     # Start your launcher
-    bindsym $mod+d exec $menu
+    bindsym $mod+space exec $menu
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
@@ -87,6 +88,9 @@ input type:keyboard {
 # Moving around:
 #
     # Move your focus around
+    focus_follows_mouse no
+    focus_wrapping no
+
     bindsym $mod+$left focus left
     bindsym $mod+$down focus down
     bindsym $mod+$up focus up
@@ -153,9 +157,6 @@ input type:keyboard {
 
     # Toggle the current focus between tiling and floating mode
     bindsym $mod+Shift+space floating toggle
-
-    # Swap focus between the tiling area and the floating area
-    bindsym $mod+space focus mode_toggle
 
     # Move focus to the parent container
     bindsym $mod+a focus parent
