@@ -66,6 +66,10 @@ input type:keyboard {
     # Start a terminal
     bindsym $mod+Return exec $term
 
+    # Launch calculator
+    bindsym $mod+c exec gnome-calculator
+    for_window [title="Calculator"] floating enable
+
     # Kill focused window
     bindsym $mod+q kill
 
