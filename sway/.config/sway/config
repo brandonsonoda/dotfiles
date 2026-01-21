@@ -76,6 +76,12 @@ input type:keyboard {
     # Start your launcher
     bindsym $mod+space exec $menu
 
+    # Start browsers
+    bindsym $mod+d exec brave
+    bindsym $mod+i exec brave --user-data-dir=~/Documents/brave_profiles/meta
+    bindsym $mod+o exec brave --user-data-dir=~/Documents/brave_profiles/bso
+    bindsym $mod+p exec brave --user-data-dir=~/Documents/brave_profiles/sb
+
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
     # Despite the name, also works for non-floating windows.
