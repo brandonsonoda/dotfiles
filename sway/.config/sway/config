@@ -23,7 +23,7 @@ set $menu wmenu-run
 # Default wallpaper (more resolutions are available in @datadir@/backgrounds/sway/)
 # output * bg @datadir@/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 # Built-in thinkpad screen
-output "Lenovo Group Limited 0x40A9 Unknown" scale 1.4
+output "Lenovo Group Limited 0x40A9 Unknown" scale 1.2
 #
 # Example configuration:
 #
@@ -50,6 +50,7 @@ output "Lenovo Group Limited 0x40A9 Unknown" scale 1.4
 #
 input type:touchpad {
   tap yes
+  scroll_factor 0.3
 }
 #
 input type:keyboard {
@@ -77,10 +78,8 @@ input type:keyboard {
     bindsym $mod+space exec $menu
 
     # Start browsers
-    bindsym $mod+d exec brave
-    bindsym $mod+i exec brave --user-data-dir=~/Documents/brave_profiles/meta
-    bindsym $mod+o exec brave --user-data-dir=~/Documents/brave_profiles/bso
-    bindsym $mod+p exec brave --user-data-dir=~/Documents/brave_profiles/sb
+    bindsym $mod+d exec brave --user-data-dir=$HOME/.config/brave_profiles/main
+    bindsym $mod+p exec brave --user-data-dir=$HOME/.config/brave_profiles/alt
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
