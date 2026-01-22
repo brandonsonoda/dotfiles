@@ -6,6 +6,6 @@ unsetopt PROMPT_SP
 export EDITOR=nvim
 export VISUAL=$EDITOR
 
-# TODO: setup ZK directory
+export ZK_NOTEBOOK_DIR=$HOME/Documents/zk
 
 eval "$(starship init zsh)"
