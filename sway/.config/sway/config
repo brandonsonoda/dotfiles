@@ -71,6 +71,9 @@ input type:keyboard {
     bindsym $mod+c exec gnome-calculator
     for_window [title="Calculator"] floating enable
 
+    # Windows to float by default
+    for_window [title="Volume Control"] floating enable
+
     # Kill focused window
     bindsym $mod+q kill
 
