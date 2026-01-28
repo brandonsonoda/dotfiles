@@ -9,6 +9,8 @@
     },
     "battery": {
       "format": "{icon}",
+      "format-charging": "{icon} 󱐋",
+      "interval": 1,
       "format-icons": ["", "", "", "", ""],
     },
     "clock": {
