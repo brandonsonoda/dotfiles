@@ -4,5 +4,6 @@ include ~/.config/sway/config.d/applications.conf
 include ~/.config/sway/config.d/displays.conf
 include ~/.config/sway/config.d/input.conf
 include ~/.config/sway/config.d/keybindings.conf
+include ~/.config/sway/config.d/wallpaper.conf
 
 include @sysconfdir@/sway/config.d/*
