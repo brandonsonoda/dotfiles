@@ -1,6 +1,7 @@
 # Read `man 5 sway` for a complete reference.
 include ~/.config/sway/config.d/general.conf
-include ~/.config/sway/config.d/applications.conf
+include ~/.config/sway/config.d/autostart.conf
+include ~/.config/sway/config.d/appearance.conf
 include ~/.config/sway/config.d/displays.conf
 include ~/.config/sway/config.d/input.conf
 include ~/.config/sway/config.d/keybindings.conf
