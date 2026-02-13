@@ -1,0 +1,5 @@
+#!/bin/bash
+mkdir -p $HOME/Documents/Photos/Screenshots
+file_name="$(echo $HOME/Documents/Photos/Screenshots/Screenshot_$(date +%Y%m%d_%H%M%S).png)"
+
+grim $file_name && notify-send -i $file_name "Screenshot saved"

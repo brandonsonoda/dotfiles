@@ -8,5 +8,6 @@ export EDITOR=nvim
 export VISUAL=$EDITOR
 
 export ZK_NOTEBOOK_DIR=$HOME/Documents/zk
+export PATH=$PATH:$HOME/.local/bin
 
 eval "$(starship init zsh)"
