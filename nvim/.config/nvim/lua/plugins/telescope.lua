@@ -16,6 +16,13 @@ return {
       }
     end,
     { desc = 'Telescope nvim config files' })
-  end
+  vim.keymap.set('n', '<leader>fd', function()
+    builtin.find_files {
+      cwd = '$HOME/dotfiles',
+      hidden = true,
+    }
+  end,
+  { desc = 'Telescope dotfiles' })
+end
 }
 
