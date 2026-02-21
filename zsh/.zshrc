@@ -1,6 +1,8 @@
 unsetopt beep
 bindkey "^P" up-line-or-search
 
+alias ls="ls --color=auto"
+
 # Remove percent sign on terminal startup
 unsetopt PROMPT_SP
 
